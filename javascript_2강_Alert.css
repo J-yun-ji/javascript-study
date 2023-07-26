@@ -1,0 +1,7 @@
+.alert-box {
+  background: #9999e5;
+  color: #592881;
+  padding: 20px;
+  border-radius: 5px;
+  display: none;  /* none: 숨김. block: 다시 보이게. */
+}
