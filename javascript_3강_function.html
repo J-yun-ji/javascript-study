@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head> 
+<body>
+
+  <div class="alert-box" id="alert">
+    <p>Alert 박스</p>
+    <!-- <button onclick="document.getElementById('alert').style.display='none'; ">닫기</button> -->
+    <button onclick="closeAlert()">닫기</button>
+  </div>
+  <button onclick="openAlert()">버튼</button>
+  
+
+  <script> 
+    function openAlert() {
+      document.getElementById('alert').style.display='block'; 
+    }
+
+    // 숙제: 닫기도 function으로 만들기.
+    function closeAlert() {
+      document.getElementById('alert').style.display='none'; 
+    }
+
+  </script>
+</body>
+</html>
